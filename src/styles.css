@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #fce4ec; /* Rosa muy clarito */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  position: relative;
+  min-width: 300px;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 120px;
+  padding-left: 60px;
+}
+
+.btn-yes {
+  background-color: #e91e63; /* Rosa fuerte */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  z-index: 100;
+  margin-left: 40px;
+  transform-origin: center;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn-no {
+  background-color: #eeeeee;
+  color: #757575;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 50;
+}
